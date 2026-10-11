@@ -1,0 +1,3 @@
+[submodule "Token-Validator/nrf52840-platformio-template"]
+	path = Token-Validator/nrf52840-platformio-template
+	url = https://github.com/octarudin/nrf52840-platformio-template.git
