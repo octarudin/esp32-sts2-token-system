@@ -1,0 +1,47 @@
+{
+  "build": {
+    "arduino": {
+      "ldscript": "nrf52840_s140_v6.ld"
+    },
+    "bsp": {
+      "name": "adafruit"
+    },
+    "core": "nRF5",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DNRF52840_XXAA -DARDUINO_NRF52840_PRO_MICRO -DARDUINO_ARCH_NRF52 -DNRF52_SERIES",
+    "f_cpu": "64000000L",
+    "mcu": "nrf52840",
+    "softdevice": {
+      "sd_flags": "",
+      "sd_name": "s140",
+      "sd_version": "6.1.1",
+      "sd_fwid": "0x00B6"
+    },
+    "variant": "feather_nrf52840_express"
+  },
+  "connectivity": [
+    "bluetooth"
+  ],
+  "debug": {
+    "jlink_device": "nRF52840_xxAA"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "nRF52840 Pro Micro / SuperMini",
+  "upload": {
+    "maximum_ram_size": 237568,
+    "maximum_size": 815104,
+    "protocol": "nrfutil",
+    "protocols": [
+      "nrfutil",
+      "jlink",
+      "stlink",
+      "cmsis-dap"
+    ],
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
+  },
+  "url": "https://github.com/jpconstantineau/Community_Adafruit_nRF52_Arduino",
+  "vendor": "Generic"
+}
